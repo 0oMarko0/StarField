@@ -69,7 +69,7 @@ function setup() {
 }
 
 function draw() {
-    speed = map(mouseX, 0, width, 2, 8);
+    speed = map(mouseX, 0, width, 2, 12);
     console.log(speed);
     background(0);
 
