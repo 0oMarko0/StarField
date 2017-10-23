@@ -8,7 +8,7 @@ function Star() {
     Star.prototype.update = function (speed) {
         this.z = this.z - speed;
 
-        // Generate Stars in the backgroud
+        // Generate Stars in the background
         if (this.z < 1) {
 
             this.z = width;
@@ -30,11 +30,6 @@ function Star() {
 
         ellipse(sx, sy, starSize, starSize);
     };
-    
-    Star.prototype.acceleration = function () {
-        
-    }
-
 
 }
 
@@ -73,7 +68,7 @@ function draw() {
     console.log(speed);
     background(0);
 
-    // To fading out from the center
+    //Fading out from the center
     translate(width/2, height/2);
     galaxy.render(speed);
 
