@@ -59,7 +59,7 @@ var galaxy = new Galaxy(2000);
 
 function setup() {
     // 3840 x 2160 4k resolution
-    createCanvas(640, 640);
+    createCanvas(3840, 2160);
     galaxy.generate();
 }
 
